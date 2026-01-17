@@ -1,0 +1,588 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>GrupCont - Tu Aliado Contable y Empresarial 100% Virtual</title>
+    <meta name="description" content="Soluciones integrales para cada aspecto de tu negocio. Servicios contables, nómina, legales y SST.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+    <link rel="stylesheet" href="assets/css/spacing.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- CSS here -->
+
+    <!-- Pricing Tabs Custom Styles -->
+    <style>
+        .pricing-tabs-wrapper {
+            margin-bottom: 30px;
+        }
+        .pricing-tabs {
+            background: #f5f5f5;
+            border-radius: 50px;
+            padding: 5px;
+            display: inline-flex;
+        }
+        .pricing-tabs .nav-link {
+            border-radius: 50px;
+            padding: 12px 40px;
+            font-weight: 600;
+            color: #333;
+            border: none;
+            background: transparent;
+            transition: all 0.3s ease;
+        }
+        .pricing-tabs .nav-link.active {
+            background: #a855f7;
+            color: #000;
+        }
+        .pricing-tabs .nav-link:hover:not(.active) {
+            background: rgba(0,0,0,0.05);
+        }
+        .pricing-carousel, .pricing-carousel-yearly {
+            overflow: hidden;
+        }
+        .pricing-carousel .swiper-slide,
+        .pricing-carousel-yearly .swiper-slide {
+            width: auto;
+        }
+        .pricing-pagination, .pricing-pagination-yearly {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pricing-pagination .swiper-pagination-bullet,
+        .pricing-pagination-yearly .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background: #ccc;
+            opacity: 1;
+        }
+        .pricing-pagination .swiper-pagination-bullet-active,
+        .pricing-pagination-yearly .swiper-pagination-bullet-active {
+            background: #a855f7;
+        }
+        .ds-price-item-list ul li span {
+            color: #a855f7;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        /* Navigation Arrows */
+        .pricing-carousel, .pricing-carousel-yearly {
+            position: relative;
+            padding: 0 50px;
+        }
+        .swiper-button-prev, .swiper-button-next {
+            width: 50px;
+            height: 50px;
+            background: #a855f7;
+            border-radius: 50%;
+            color: #000;
+        }
+        .swiper-button-prev:after, .swiper-button-next:after {
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+        }
+        .swiper-button-prev:hover, .swiper-button-next:hover {
+            background: #9333ea;
+        }
+        .pricing-prev, .pricing-prev-yearly {
+            left: 0;
+        }
+        .pricing-next, .pricing-next-yearly {
+            right: 0;
+        }
+        .tp-btn-green {
+            background-color: #a855f7;
+            color: #000;
+        }
+        .tp-btn-green:hover {
+            background-color: #9333ea;
+            color: #fff;
+        }
+    </style>
+
+</head>
+
+<body class="tp-magic-cursor">
+
+    <!-- Begin magic cursor -->
+    <div id="magic-cursor" class="cursor-white-bg">
+        <div id="ball"></div>
+    </div>
+    <!-- End magic cursor -->
+
+    <!-- preloader -->
+    <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- preloader end  -->
+
+    <div class="tp-blur-bottom"></div>
+
+    <!-- back to top start -->
+    <div class="back-to-top-wrapper">
+        <button id="back_to_top" type="button" class="back-to-top-btn">
+            <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+    </div>
+    <!-- back to top end -->
+
+    <!-- header area start -->
+    <div id="header-sticky" class="tp-header-area tp-header-ptb tp-header-blur header-transparent sticky-pest-bg tp-header-border">
+        <div class="container container-1510">
+            <div class="row align-items-center">
+                <div class="col-xl-2 col-lg-6 col-6">
+                    <div class="tp-header-logo">
+                        <a href="index.html" class="d-block" style="font-size: 28px; font-weight: 800; color: #fff; text-decoration: none; font-family: 'Plus Jakarta Sans', sans-serif;">
+                            GrupCont.
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-10 col-6">
+                    <div class="tp-header-9-main">
+                        <div class="tp-header-box">
+                            <div class="tp-header-menu tp-header-dropdown dropdown-pest-bg d-none d-xl-block">
+                                <nav class="tp-mobile-menu-active">
+                                    <ul>
+                                        <li>
+                                            <a class="tp-btn-anim" href="index.html">Inicio</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#nosotros">Nosotros</a>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="index.html#servicios">Servicios</a>
+                                            <ul class="tp-submenu submenu">
+                                                <li><a href="#">Contabilidad</a></li>
+                                                <li><a href="#">Nómina</a></li>
+                                                <li><a href="#">Legal</a></li>
+                                                <li><a href="#">SST</a></li>
+                                                <li><a href="#">Factura Electrónica</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#planes">Planes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#educacion" style="position: relative;">Educación <span style="background-color: #6cf901; color: #1e1e1e; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; position: absolute; top: -10px; right: -25px;">NEW</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#blog">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact-us.html">Contacto</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="tp-header-9-right d-flex align-items-center justify-content-end">
+                            <div class="tp-header-7-info mr-15 d-xxl-block d-none">
+                                <a href="tel:0123456789">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                            <path d="M13.75 6.41678V2.29178C13.75 2.03878 13.9553 1.83345 14.2083 1.83345C14.4613 1.83345 14.6667 2.03878 14.6667 2.29178V6.41678C14.6667 6.5057 14.6795 6.59187 14.7033 6.67345L21.2172 0.134865C21.3959 -0.0448019 21.6865 -0.0448019 21.8653 0.133948C22.0449 0.312698 22.0449 0.603281 21.8671 0.782948L15.367 7.3087C15.4367 7.3252 15.5091 7.33437 15.5833 7.33437H19.7083C19.9613 7.33437 20.1667 7.5397 20.1667 7.7927C20.1667 8.0457 19.9613 8.25103 19.7083 8.25103H15.5833C14.5723 8.25103 13.75 7.42787 13.75 6.41678ZM21.2327 15.8566C21.7433 16.3617 22 16.9814 22 17.6395C22 18.2977 21.7433 18.9183 21.2777 19.383L20.3812 20.4143C19.3536 21.4446 17.9905 21.9992 16.5211 21.9992C9.41875 22.0001 0 12.5814 0 5.47812C0 4.0087 0.554583 2.64562 1.56292 1.64003L2.63908 0.701365C3.5255 -0.187802 5.17183 -0.208885 6.10408 0.722448L7.89983 3.05353C8.822 3.9702 8.822 5.53495 7.86042 6.49653L6.49642 7.89445C7.97867 11.3805 10.7259 14.1315 14.1002 15.5055L15.5045 14.136C16.4643 13.1763 18.0281 13.1772 18.9897 14.1388L21.2318 15.8557L21.2327 15.8566ZM20.6296 16.5441L18.3874 14.8272C17.7127 14.1626 16.7365 14.202 16.1517 14.7878L14.5283 16.3709C14.4008 16.4955 14.2129 16.5359 14.0452 16.4699C10.2208 15.0096 7.11792 11.9094 5.53392 7.9632C5.46608 7.79453 5.50458 7.60203 5.63108 7.47187L7.20958 5.85303C7.81825 5.24437 7.81825 4.2617 7.21325 3.6567L5.4175 1.32561C5.14067 1.05153 4.763 0.911282 4.37892 0.911282C3.97925 0.911282 3.57317 1.06253 3.26517 1.36961L2.18808 2.3092C1.37592 3.12045 0.916667 4.25345 0.916667 5.4772C0.916667 12.0405 9.95867 21.0825 16.5211 21.0825C17.7448 21.0825 18.8778 20.6233 19.7111 19.7891L20.6076 18.7579C21.2337 18.1299 21.2337 17.1473 20.6287 16.5432L20.6296 16.5441Z" fill="#F5F7F5"/>
+                                        </svg>
+                                    </span>
+                                    +(704) 555-0127
+                                </a>
+                            </div>
+                            <div class="tp-header-14-bar-wrap">
+                                <button class="tp-header-8-bar tp-offcanvas-open-btn">
+                                    <span>Menu</span>
+                                    <span>
+                                        <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0H14V1.5H0V0Z" fill="currentcolor"></path>
+                                            <path d="M0 6H24V7.5H0V6Z" fill="currentcolor"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header area end -->
+
+    <!-- tp-offcanvus-area-start -->
+    <div class="tp-offcanvas-area">
+        <div class="tp-offcanvas-wrapper offcanvas-pest-bg">
+            <div class="tp-offcanvas-top d-flex align-items-center justify-content-between">
+                <div class="tp-offcanvas-logo">
+                    <a href="index.html">
+                        <img class="logo-1" data-width="120" src="assets/img/logo/logo-black.png" alt="">
+                        <img class="logo-2" data-width="120" src="assets/img/logo/logo-white.png" alt="">
+                    </a>
+                </div>
+                <div class="tp-offcanvas-close">
+                    <button class="tp-offcanvas-close-btn">
+                        <svg width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.19141 9.80762L27.5762 28.1924" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M9.19141 28.1924L27.5762 9.80761" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="tp-offcanvas-main">
+                <div class="tp-offcanvas-content d-none d-xl-block">
+                    <h3 class="tp-offcanvas-title">Hello There!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                </div>
+                <div class="tp-offcanvas-menu d-xl-none">
+                    <nav></nav>
+                </div>
+                <div class="tp-offcanvas-gallery d-none d-xl-block">
+                    <div class="row gx-2">
+                        <div class="col-md-3 col-3">
+                            <div class="tp-offcanvas-gallery-img fix">
+                                <a class="popup-image" href="assets/img/offcanvas/offcanvas-1.jpg"><img src="assets/img/offcanvas/offcanvas-1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-3">
+                            <div class="tp-offcanvas-gallery-img fix">
+                                <a class="popup-image" href="assets/img/offcanvas/offcanvas-2.jpg"><img src="assets/img/offcanvas/offcanvas-2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-3">
+                            <div class="tp-offcanvas-gallery-img fix">
+                                <a class="popup-image" href="assets/img/offcanvas/offcanvas-3.jpg"><img src="assets/img/offcanvas/offcanvas-3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-3">
+                            <div class="tp-offcanvas-gallery-img fix">
+                                <a class="popup-image" href="assets/img/offcanvas/offcanvas-4.jpg"><img src="assets/img/offcanvas/offcanvas-4.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-offcanvas-contact">
+                    <h3 class="tp-offcanvas-title sm">Information</h3>
+                    <ul>
+                        <li><a href="tel:1245654">+ 4 20 7700 1007</a></li>
+                        <li><a href="mailto:hello@acjon.com">hello@acjon.com</a></li>
+                        <li><a href="#">Avenue de Roma 158b, Lisboa</a></li>
+                    </ul>
+                </div>
+                <div class="tp-offcanvas-social">
+                    <h3 class="tp-offcanvas-title sm">Follow Us</h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.25 1.5H4.75C2.95507 1.5 1.5 2.95507 1.5 4.75V11.25C1.5 13.0449 2.95507 14.5 4.75 14.5H11.25C13.0449 14.5 14.5 13.0449 14.5 11.25V4.75C14.5 2.95507 13.0449 1.5 11.25 1.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M10.6016 7.5907C10.6818 8.13166 10.5894 8.68414 10.3375 9.16955C10.0856 9.65497 9.68711 10.0486 9.19862 10.2945C8.71014 10.5404 8.15656 10.6259 7.61663 10.5391C7.0767 10.4522 6.57791 10.1972 6.19121 9.81055C5.80451 9.42385 5.54959 8.92506 5.46271 8.38513C5.37583 7.8452 5.46141 7.29163 5.70728 6.80314C5.95315 6.31465 6.34679 5.91613 6.83221 5.66425C7.31763 5.41238 7.87011 5.31998 8.41107 5.4002C8.96287 5.48202 9.47372 5.73915 9.86817 6.1336C10.2626 6.52804 10.5197 7.0389 10.6016 7.5907Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M11.5742 4.42578H11.5842" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.50589 12.7494C4.57662 16.336 9.16278 17.5648 12.7494 15.4941C14.2113 14.65 15.2816 13.388 15.8962 11.9461C16.7895 9.85066 16.7208 7.37526 15.4941 5.25063C14.2674 3.12599 12.1581 1.82872 9.89669 1.55462C8.34063 1.366 6.71259 1.66183 5.25063 2.50589C1.66403 4.57662 0.435172 9.16278 2.50589 12.7494Z" stroke="currentColor" stroke-width="1.5" />
+                                    <path d="M12.7127 15.4292C12.7127 15.4292 12.0086 10.4867 10.5011 7.87559C8.99362 5.26451 5.28935 2.57155 5.28935 2.57155M5.68449 15.6124C6.79553 12.2606 12.34 8.54524 16.3975 9.43537M12.311 2.4082C11.1953 5.72344 5.75732 9.38453 1.71875 8.58915" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 5.5715H6.33342C7.62867 5.5715 8.61917 6.56199 8.61917 7.85725C8.61917 9.15251 7.62867 10.143 6.33342 10.143H1.76192C1.30477 10.143 1 9.83823 1 9.38108V1.76192C1 1.30477 1.30477 1 1.76192 1H5.5715C6.86676 1 7.85725 1.99049 7.85725 3.28575C7.85725 4.58101 6.86676 5.5715 5.5715 5.5715H1Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"></path>
+                                    <path d="M10.9062 7.09454H17.0016C17.0016 5.41832 15.6301 4.04688 13.9539 4.04688C12.2777 4.04688 10.9062 5.41832 10.9062 7.09454ZM10.9062 7.09454C10.9062 8.77076 12.2777 10.1422 13.9539 10.1422H15.2492" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M16.1125 1.44434H11.668" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.75 13H5.25C3 13 1.5 11.5 1.5 9.25V4.75C1.5 2.5 3 1 5.25 1H12.75C15 1 16.5 2.5 16.5 4.75V9.25C16.5 11.5 15 13 12.75 13Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M8.70676 5.14837L10.8006 6.40465C11.5543 6.90716 11.5543 7.66093 10.8006 8.16344L8.70676 9.41972C7.86923 9.92224 7.19922 9.50348 7.19922 8.5822V6.06964C7.19922 4.98086 7.86923 4.64585 8.70676 5.14837Z" fill="currentColor" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body-overlay"></div>
+    <!-- tp-offcanvus-area-end -->
+
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <main>
+
+                <!-- LMS Hero Section -->
+                <div class="z-index-2 include-bg text-center" style="background-color: #0d0b21; padding: 120px 0 80px 0; color: white;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-8">
+                                <span class="tp-fade-anim" style="color: #9cfc3f; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; font-size: 14px; margin-bottom: 20px; display: block;">Academia GrupCont</span>
+                                <h1 class="tp_fade_anim" style="font-size: 56px; line-height: 1.1; margin-bottom: 30px; color: white; font-weight: 800;">
+                                    El futuro de tu carrera <br>
+                                    <span style="color: #a855f7;">comienza hoy.</span>
+                                </h1>
+                                <p class="tp_fade_anim" style="font-size: 20px; color: #a0a0b0; margin-bottom: 40px;">
+                                    Domina contabilidad, nómina y gestión empresarial con cursos online efectivos.
+                                </p>
+                                
+                                <!-- Search Bar -->
+                                <div class="tp_fade_anim p-relative" style="max-width: 600px; margin: 0 auto 50px auto;">
+                                    <input type="text" placeholder="¿Qué quieres aprender?" style="width: 100%; padding: 20px 30px; border-radius: 50px; border: 2px solid #2d2b45; background: #1a1832; color: white; font-size: 16px; outline: none;">
+                                    <button style="position: absolute; right: 10px; top: 10px; height: 46px; background: #a855f7; color: white; border: none; border-radius: 40px; padding: 0 30px; font-weight: 700;">Buscar</button>
+                                </div>
+
+                                <!-- Categories / Schools -->
+                                <div class="d-flex justify-content-center flex-wrap gap-3 tp_fade_anim">
+                                    <a href="#" style="background: rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 30px; color: white; text-decoration: none; font-size: 14px; border: 1px solid rgba(255,255,255,0.05);">📊 Contabilidad</a>
+                                    <a href="#" style="background: rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 30px; color: white; text-decoration: none; font-size: 14px; border: 1px solid rgba(255,255,255,0.05);">⚖️ Legal</a>
+                                    <a href="#" style="background: rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 30px; color: white; text-decoration: none; font-size: 14px; border: 1px solid rgba(255,255,255,0.05);">💰 Nómina</a>
+                                    <a href="#" style="background: rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 30px; color: white; text-decoration: none; font-size: 14px; border: 1px solid rgba(255,255,255,0.05);">🚀 Emprendimiento</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Learning Path / Recently Added -->
+                <div class="pt-100 pb-100" style="background-color: #f8f9fc;">
+                    <div class="container container-1510">
+                        <div class="row mb-50">
+                            <div class="col-12 d-flex justify-content-between align-items-end">
+                                <div>
+                                    <h3 style="font-size: 32px; font-weight: 800; color: #1e1b4b; margin-bottom: 10px;">Lanzamientos Recientes</h3>
+                                    <p style="color: #666;">Cursos diseñados por expertos de la industria.</p>
+                                </div>
+                                <a href="#" style="color: #a855f7; font-weight: 700; text-decoration: none;">Ver todos los cursos &rarr;</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!-- Course Card 1 -->
+                            <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+                                <div style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: transform 0.3s ease;">
+                                    <div class="p-relative">
+                                        <img src="assets/img/business-consulting/education/course_accounting_basics.png" alt="Contabilidad" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;">
+                                        <span style="position: absolute; top: 15px; left: 15px; background: #6cf901; color: #000; font-size: 11px; font-weight: 800; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Nuevo</span>
+                                        <span style="position: absolute; bottom: 15px; right: 15px; background: rgba(0,0,0,0.7); color: white; font-size: 12px; padding: 2px 8px; border-radius: 4px;">2h 15m</span>
+                                    </div>
+                                    <div style="padding: 20px;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                                            <span style="color: #ffc107; font-size: 14px;">★ 4.9</span>
+                                            <span style="color: #888; font-size: 13px; margin-left: 5px;">(120 reseñas)</span>
+                                        </div>
+                                        <h4 style="font-size: 18px; line-height: 1.4; margin-bottom: 10px; font-weight: 700;">
+                                            <a href="#" style="color: #1e1b4b; text-decoration: none;">Fundamentos de Contabilidad para No Contadores</a>
+                                        </h4>
+                                        <div style="display: flex; align-items: center; justify-content-between; margin-top: 20px;">
+                                            <div style="display: flex; align-items: center;">
+                                                <img src="assets/img/logo/logo-black.png" style="width: 20px; height: 20px; border-radius: 50%; object-fit: cover; margin-right: 8px;">
+                                                <span style="font-size: 12px; color: #555; fw-600">GrupCont Team</span>
+                                            </div>
+                                            <span style="color: #a855f7; font-weight: 700; font-size: 16px;">$29.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Course Card 2 -->
+                            <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+                                <div style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: transform 0.3s ease;">
+                                    <div class="p-relative">
+                                        <img src="assets/img/business-consulting/education/course_tax_update.png" alt="Impuestos" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;">
+                                        <span style="position: absolute; top: 15px; left: 15px; background: #a855f7; color: white; font-size: 11px; font-weight: 800; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Best Seller</span>
+                                        <span style="position: absolute; bottom: 15px; right: 15px; background: rgba(0,0,0,0.7); color: white; font-size: 12px; padding: 2px 8px; border-radius: 4px;">4h 30m</span>
+                                    </div>
+                                    <div style="padding: 20px;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                                            <span style="color: #ffc107; font-size: 14px;">★ 5.0</span>
+                                            <span style="color: #888; font-size: 13px; margin-left: 5px;">(450 reseñas)</span>
+                                        </div>
+                                        <h4 style="font-size: 18px; line-height: 1.4; margin-bottom: 10px; font-weight: 700;">
+                                            <a href="#" style="color: #1e1b4b; text-decoration: none;">Actualización Tributaria 2026: Todo lo que debes saber</a>
+                                        </h4>
+                                        <div style="display: flex; align-items: center; justify-content-between; margin-top: 20px;">
+                                            <div style="display: flex; align-items: center;">
+                                                <img src="assets/img/logo/logo-black.png" style="width: 20px; height: 20px; border-radius: 50%; object-fit: cover; margin-right: 8px;">
+                                                <span style="font-size: 12px; color: #555;">GrupCont Team</span>
+                                            </div>
+                                            <span style="color: #a855f7; font-weight: 700; font-size: 16px;">$49.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!-- Course Card 3 -->
+                            <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+                                <div style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: transform 0.3s ease;">
+                                    <div class="p-relative">
+                                        <img src="assets/img/business-consulting/education/course_payroll_management.png" alt="Nómina" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;">
+                                         <span style="position: absolute; bottom: 15px; right: 15px; background: rgba(0,0,0,0.7); color: white; font-size: 12px; padding: 2px 8px; border-radius: 4px;">6h 10m</span>
+                                    </div>
+                                    <div style="padding: 20px;">
+                                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                                            <span style="color: #ffc107; font-size: 14px;">★ 4.8</span>
+                                            <span style="color: #888; font-size: 13px; margin-left: 5px;">(85 reseñas)</span>
+                                        </div>
+                                        <h4 style="font-size: 18px; line-height: 1.4; margin-bottom: 10px; font-weight: 700;">
+                                            <a href="#" style="color: #1e1b4b; text-decoration: none;">Masterclass de Nómina y Prestaciones Sociales</a>
+                                        </h4>
+                                        <div style="display: flex; align-items: center; justify-content-between; margin-top: 20px;">
+                                            <div style="display: flex; align-items: center;">
+                                                <img src="assets/img/logo/logo-black.png" style="width: 20px; height: 20px; border-radius: 50%; object-fit: cover; margin-right: 8px;">
+                                                <span style="font-size: 12px; color: #555;">GrupCont Team</span>
+                                            </div>
+                                            <span style="color: #a855f7; font-weight: 700; font-size: 16px;">$39.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Course Card 4 (Placeholder) -->
+                            <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+                                <div style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: transform 0.3s ease;">
+                                    <div class="p-relative" style="background: #e0e0e0; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center;">
+                                        <span style="color: #999;">Próximamente</span>
+                                    </div>
+                                    <div style="padding: 20px;">
+                                         <div style="height: 14px; width: 60px; background: #eee; border-radius: 4px; margin-bottom: 10px;"></div>
+                                        <h4 style="font-size: 18px; line-height: 1.4; margin-bottom: 10px; font-weight: 700; color: #ccc;">
+                                            Curso de Excel Avanzado para Contadores
+                                        </h4>
+                                        <div style="display: flex; align-items: center; justify-content-between; margin-top: 20px;">
+                                            <div style="height: 20px; width: 20px; background: #eee; border-radius: 50%;"></div>
+                                            <span style="color: #ccc; font-weight: 700; font-size: 16px;">--</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+
+                </main>
+
+            <!-- footer area start -->
+            <footer class="tp-footer-5-area pt-120 " data-bg-color="#093535">
+                <div class="tp-footer-5-main-warp pb-40">
+                    <div class="container container-1510">
+                        <div class="row">
+                            <div class="col-xxl-3 col-lg-4 col-md-6 tp_fade_anim" data-delay=".3">
+                                <div class="ds-footer-widget tp-footer-5-col-1 mb-40">
+                                    <div class="tp-footer-5-wrap">
+                                        <a href="contact-us.html"><img src="assets/img/logo/grupcont_footer_card.png" alt="Información de Contacto GrupCont" style="max-width: 100%; height: auto; border-radius: 20px;"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-3 col-lg-4 col-md-6 tp_fade_anim" data-delay=".5">
+                                <div class="ds-footer-widget tp-footer-5-col-2 mb-40">
+                                    <h4 class="tp-footer-widget-title fs-24 mb-25">Enlaces Rápidos</h4>
+                                    <div class="tp-footer-widget-menu fs-16">
+                                        <ul>
+                                            <li><a class="tp-hover-line-white border-up" href="#">Inicio</a></li>
+                                            <li><a class="tp-hover-line-white border-up" href="#">Sobre Nosotros</a></li>
+                                            <li><a class="tp-hover-line-white border-up" href="#">Servicios</a></li>
+                                            <li><a class="tp-hover-line-white border-up" href="#">Planes</a></li>
+                                            <li><a class="tp-hover-line-white border-up" href="#">Contacto</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-3 col-lg-4 col-md-6 tp_fade_anim" data-delay=".7">
+                                <div class="ds-footer-widget tp-footer-5-col-3 mb-40">
+                                    <h4 class="tp-footer-widget-title fs-24 mb-25">Nuestros Servicios</h4>
+                                    <div class="tp-footer-widget-menu fs-16">
+                                        <ul>
+                                            <li><a class="tp-hover-line-white border-up" href="#">Contabilidad</a></li>
+                                            <li><a class="tp-hover-line-white border-up" href="#">Nómina</a></li>
+                                            <li><a class="tp-hover-line-white border-up" href="#">Legal</a></li>
+                                            <li><a class="tp-hover-line-white border-up" href="#">SST</a></li>
+                                            <li><a class="tp-hover-line-white border-up" href="#">Factura Electrónica</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-3 col-lg-4 col-md-6 tp_fade_anim" data-delay=".9">
+                                <div class="ds-footer-widget tp-footer-5-col-4 mb-40">
+                                    <h4 class="tp-footer-widget-title fs-24 mb-25">Suscríbete</h4>
+                                    <div class="ds-footer-widget-input p-relative">
+                                        <input type="text" placeholder="Tu Email">
+                                        <button class="tp-btn-green">Enviar</button>
+                                    </div>
+                                    <div class="tp-footer-widget-input-remember">
+                                        <input id="remembe" type="checkbox">
+                                        <label for="remembe">Al suscribirte, aceptas nuestra <a href="#">Política de Privacidad</a></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Big Text Removed -->
+                <div class="ds-copyright-area">
+                    <div class="container container-1510">
+                        <div class="ds-copyright-wrap">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="tp-copyright-text tp-copyright-4">
+                                        <p>2025 <a class="tp-line-white" href="#">GrupCont ©</a> Todos los derechos reservados</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tp-copyright-menu text-md-end">
+                                        <a class="tp-hover-line-white" href="#">Términos y Condiciones</a>
+                                        <a class="tp-hover-line-white" href="#">Política de Privacidad</a>
+                                        <a class="tp-hover-line-white" href="#">Legal</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer area end -->
+
+        </div>
+    </div>
+
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/bootstrap-bundle.js"></script>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/plugin.js"></script>
+    <script src="assets/js/hover-effect.umd.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/purecounter.js"></script>
+    <script src="assets/js/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/slider-active.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- JS here -->
+
+
+
+</body>
+
+</html>
