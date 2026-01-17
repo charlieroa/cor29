@@ -178,7 +178,7 @@ li,
   --tp-common-white-solid: white;
   --tp-common-black: #010103;
   --tp-common-black-solid: #000;
-  --tp-common-paste: #073333;
+  --tp-common-paste: #1e1e1e;
   --tp-common-brown: #DFAE4F;
   --tp-common-yellow: #fff669;
   --tp-grey-1: #F5F7F5;
@@ -4714,7 +4714,7 @@ body.tp-magic-cursor #magic-cursor {
   color: rgba(255, 255, 255, 0.8);
 }
 .tp-offcanvas-wrapper.offcanvas-pest-bg {
-  background: #093535;
+  background: #1e1e1e;
 }
 .tp-offcanvas-wrapper.offcanvas-pest-bg .tp-offcanvas-menu .tp-submenu li a:hover {
   background: rgba(255, 255, 255, 0.04);
@@ -7143,7 +7143,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 .bnc-blog-item-wrapper .ds-blog-item::before {
   border-radius: 8px;
-  background-color: #093535;
+  background-color: #1e1e1e;
 }
 .bnc-blog-item-wrapper .ds-blog-item:hover .ds-blog-item-user-title {
   color: var(--tp-common-white);
