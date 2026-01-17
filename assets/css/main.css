@@ -4093,7 +4093,7 @@ body.tp-magic-cursor #magic-cursor {
   background: rgba(38, 37, 40, 0.9);
 }
 .header-sticky.sticky-pest-bg {
-  background-color: rgba(9, 53, 53, 0.9);
+  background-color: rgba(30, 30, 30, 0.95);
 }
 .header-sticky.tp-header-blur::after {
   position: absolute;
@@ -4313,7 +4313,7 @@ body.tp-magic-cursor #magic-cursor {
 .tp-megamenu-wrapper.megamenu-pest-bg {
   backdrop-filter: blur(40px);
   border: 1px solid rgba(245, 247, 245, 0.1);
-  background: rgba(9, 53, 53, 0.9);
+  background: rgba(30, 30, 30, 0.95);
   box-shadow: 0 2px 6px 0 rgba(19, 19, 22, 0.1);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -4453,7 +4453,7 @@ body.tp-magic-cursor #magic-cursor {
   color: var(--tp-common-black);
 }
 .dropdown-pest-bg nav ul li .tp-submenu {
-  background: rgba(9, 53, 53, 0.9);
+  background: rgba(30, 30, 30, 0.95);
   border: 1px solid rgba(245, 247, 245, 0.1);
 }
 .dropdown-pest-bg nav ul li .tp-submenu li:hover > a {
